@@ -9,15 +9,18 @@ all_results = [] # Lista per accumulare tutti i record
 limit = 1000     # Numero di record per chiamata
 offset = 0       # Punto di partenza
 continue_paging = True
+your_domain = "yourdomain.it" # Il tuo dominio
+your_location = "Italy" # La tua location
+your_language = "Italian" # La tua lingua
 
 print("Inizio recupero dati...")
 
 while continue_paging:
     post_data = dict()
     post_data[0] = dict(
-        target="yourdomain.it",
-        location_name="Italy",
-        language_name="Italian",
+        target=your_domain,
+        location_name=your_location,
+        language_name=your_language,
         filters=[
             ["keyword_data.keyword_info.search_volume", ">", 10],
             "and", 

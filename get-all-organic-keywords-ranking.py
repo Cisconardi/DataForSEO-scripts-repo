@@ -15,7 +15,7 @@ print("Inizio recupero dati...")
 while continue_paging:
     post_data = dict()
     post_data[0] = dict(
-        target="eshop.wuerth.it",
+        target="yourdomain.it",
         location_name="Italy",
         language_name="Italian",
         filters=[

@@ -1,3 +1,8 @@
+Look for custom scripts that helped me a lot!
+
+
+NOW START THE OFFICIAL DOCUMENTATION BY DATAFORSEO
+
 ## OVERVIEW
 
 This is a Python client providing you, as a developer, with a tool for obtaining the necessary data from DataForSEO APIs. You don't have to figure out how to make a request and process a response - all that is readily available in this client.

@@ -25,10 +25,9 @@ if not enable_paging:
 while continue_paging:
     post_data = dict()
     post_data[0] = dict(
-        target="eshop.wuerth.it",
+        target="domain.it",
         location_name="Italy",
         language_name="Italian",
-        historical_serp_mode="all",
         filters=[
             ["keyword_data.keyword_info.search_volume", ">", 10],
             "and",

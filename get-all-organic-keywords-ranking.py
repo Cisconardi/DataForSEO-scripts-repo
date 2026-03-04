@@ -6,7 +6,7 @@ import time
 client = RestClient("mail", "password")
 
 # --- Nuove variabili per il controllo del paging ---
-enable_paging = False  # Imposta a False per disabilitare il paging e fare una singola chiamata
+enable_paging = True  # Imposta a False per disabilitare il paging e fare una singola chiamata
 fixed_call_limit = 10 # Se enable_paging è False, imposta il numero di record nella singola chiamata
 # --------------------------------------------------
 
